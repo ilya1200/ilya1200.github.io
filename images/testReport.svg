@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect x="10" y="10" width="380" height="280" fill="#f0f0f0" stroke="#333" stroke-width="2"/>
+  <text x="200" y="40" font-family="Arial, sans-serif" font-size="20" text-anchor="middle" fill="#333">Test Report</text>
+  
+  <!-- Pie Chart -->
+  <circle cx="100" cy="120" r="60" fill="#4CAF50" />
+  <path d="M100 120 L100 60 A60 60 0 0 1 153 150 Z" fill="#FFC107" />
+  <path d="M100 120 L153 150 A60 60 0 0 1 100 180 Z" fill="#F44336" />
+  <text x="100" y="200" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">Test Results</text>
+  
+  <!-- Bar Graph -->
+  <rect x="220" y="80" width="30" height="120" fill="#2196F3" />
+  <rect x="260" y="120" width="30" height="80" fill="#2196F3" />
+  <rect x="300" y="160" width="30" height="40" fill="#2196F3" />
+  <text x="275" y="220" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">Test Duration</text>
+  
+  <!-- Legend -->
+  <rect x="20" y="240" width="15" height="15" fill="#4CAF50" />
+  <text x="40" y="252" font-family="Arial, sans-serif" font-size="12" fill="#333">Passed</text>
+  <rect x="100" y="240" width="15" height="15" fill="#FFC107" />
+  <text x="120" y="252" font-family="Arial, sans-serif" font-size="12" fill="#333">Skipped</text>
+  <rect x="180" y="240" width="15" height="15" fill="#F44336" />
+  <text x="200" y="252" font-family="Arial, sans-serif" font-size="12" fill="#333">Failed</text>
+</svg>
